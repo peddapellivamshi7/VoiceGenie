@@ -1,32 +1,113 @@
-﻿# AI Voice Assistant for Windows (Gemini)
+ 🎙️ VoiceGenie - Online Voice Assistant
 
-This project is distributed as a Windows `.exe` installer.
+## 📌 Overview
 
-## Build the installer EXE
+VoiceGenie is an intelligent online voice assistant that can understand user voice commands, process them using AI, and respond with accurate results. It integrates speech recognition, natural language processing, and text-to-speech to provide a seamless interactive experience.
 
-Prerequisite: install **Inno Setup 6** (provides `ISCC.exe`).
+---
 
-From project folder:
+## 🚀 Features
 
-```powershell
-cd c:\Users\CR\College\COURSE\PYTHON\AI-Integrated-Personal-Voice-Assistant
-.\build_installer_exe.ps1
+* 🎤 Voice input (speech-to-text)
+* 🧠 AI-powered understanding using Gemini API
+* 🔊 Text-to-speech response
+* 🌐 Web-based interaction
+* ⚡ Fast and lightweight system
+* 🔄 Real-time command processing
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* SpeechRecognition Library
+* pyttsx3 / gTTS (Text-to-Speech)
+* Google Gemini API (AI processing)
+* Flask / FastAPI (Backend)
+* HTML, CSS, JavaScript (Frontend)
+
+---
+
+## ⚙️ System Architecture
+
+1. User gives voice input
+2. Speech is converted to text
+3. Text is processed using Gemini AI
+4. Response is generated
+5. Output is converted to speech and returned
+
+
+## 🔑 Setup Instructions
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/your-username/VoiceGenie.git
+cd VoiceGenie
 ```
 
-Output:
-- `dist\AI-Voice-Assistant-Installer.exe`
+### 2. Install Dependencies
 
-## End-user installation steps
+```
+pip install -r requirements.txt
+```
 
-1. Download `AI-Voice-Assistant-Installer.exe`
-2. Run the installer
-3. Installer copies files and runs dependency setup automatically
-4. Edit `.env` and set `GEMINI_API_KEY`
-5. Launch from desktop/start-menu shortcut
+### 3. Set API Key
 
-## Notes
+Create a `.env` file:
 
-- Platform: Windows 10/11
-- Python 3.10+ is required on target laptop for dependency install
-- If mic is wrong, set `MICROPHONE_INDEX` in `.env`
-- Keep `STT_ENGINE=google` for best reliability
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+### 4. Run the Application
+
+```
+python app.py
+```
+
+---
+
+## 💡 Usage
+
+* Click the microphone button
+* Speak your command
+* VoiceGenie processes and responds
+* Listen to the generated output
+
+---
+
+## 📊 Example Commands
+
+* "What is the weather today?"
+* "Tell me a joke"
+* "Explain machine learning"
+* "Open Google"
+
+---
+
+## ⚠️ Limitations
+
+* Requires internet connection
+* Accuracy depends on microphone quality
+* Free API has usage limits
+
+---
+
+## 🔮 Future Enhancements
+
+* Multi-language support
+* Mobile app integration
+* Offline voice processing
+* Smart home integration
+
+---
+
+## 👨‍💻 Author
+
+Peddapelli Vamshi
+💼   www.linkedin.com/in/peddapelli-vamshi-aa6012387
+
+
+
+
