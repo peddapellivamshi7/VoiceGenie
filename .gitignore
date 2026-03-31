@@ -1,0 +1,51 @@
+﻿__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.venv/
+.env
+*.log
+*.sqlite3
+*.db
+*.tgz
+*.zip
+/.idea/
+.vscode/
+/.DS_Store
+instaler/
+dist/
+*.exe
+*.msi
+__pycache__/
+*.db
+$RECYCLE.BIN/
+Thumbs.db
+desktop.ini# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
